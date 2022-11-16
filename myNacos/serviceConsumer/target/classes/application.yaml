@@ -1,0 +1,24 @@
+#端口号
+server:
+  port: 9001
+  #服务名
+spring:
+  application:
+    name: consumer
+  #Nacos Server 的地址
+  cloud:
+    loadbalancer:
+      ribbon:
+        enabled: false
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+      config:
+        server-addr: 127.0.0.1:8848
+        group: DEFAULT_GROUP
+        name: test1.yaml
+        file-extension: yaml
+
+
+
+        cloud:

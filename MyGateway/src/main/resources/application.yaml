@@ -1,0 +1,28 @@
+#端口号
+server:
+  port: 1001
+  #服务名
+spring:
+  application:
+    name: MyGateway
+  #Nacos Server 的地址
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 43.143.106.57:8848
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lowerCaseServiceId: true
+      routes:
+        - id: service-autodeliver-router
+          uri: lb://provider
+          predicates:
+            - Path= /queryMsg/**
+        - id: service-resume-router
+          uri: lb://consumer
+          predicates:
+            - Path=/consumer/**
+          filters:
+            - StripPrefix=1
