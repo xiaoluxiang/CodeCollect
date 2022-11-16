@@ -5,7 +5,6 @@ import com.alibaba.nacos.api.exception.NacosException;
 import com.alibaba.nacos.api.naming.NamingService;
 import com.alibaba.nacos.api.naming.pojo.Instance;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
@@ -29,7 +28,7 @@ public class MsgConsumer {
         return restTemplate.getForObject(  "http://provider/queryMsg?name=lushixiang", String.class);
     }
 
-    @GetMapping("/name")
+    @RequestMapping("/name1")
     public List<Instance> getService(@PathParam("serviceName") String name ) throws NacosException {
         List<Instance> allInstances = namingService.getAllInstances(name);
         allInstances.forEach(all->{
@@ -41,7 +40,7 @@ public class MsgConsumer {
     @Value("${myName}")
     private String myName;
 
-    @RequestMapping("/name")
+    @RequestMapping("/name2")
     private String getConfig(){
         System.out.println(myName);
         return myName;

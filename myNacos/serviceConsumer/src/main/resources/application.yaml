@@ -12,13 +12,10 @@ spring:
         enabled: false
     nacos:
       discovery:
-        server-addr: 127.0.0.1:8848
-      config:
-        server-addr: 127.0.0.1:8848
-        group: DEFAULT_GROUP
-        name: test1.yaml
-        file-extension: yaml
+        server-addr: 43.143.106.57:8848
+#      config:
+#        server-addr: 43.143.106.57:8848
+#        group: Group1-lushixiang
+#        name: DataId1-lushixiang
+#        file-extension: yaml
 
-
-
-        cloud:
