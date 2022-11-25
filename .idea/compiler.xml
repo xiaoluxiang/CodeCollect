@@ -14,6 +14,7 @@
         <module name="serviceConsumer" />
         <module name="language" />
         <module name="spi" />
+        <module name="SpringFoundation" />
         <module name="Date" />
         <module name="MyGateway" />
         <module name="DataStruct" />
@@ -37,6 +38,8 @@
       <module name="MyGateway" options="-parameters" />
       <module name="MyThread" options="-parameters" />
       <module name="MyThreadPool" options="-parameters" />
+      <module name="SpringFoundation" options="-parameters" />
+      <module name="SpringFramework" options="-parameters" />
       <module name="Test" options="-parameters" />
       <module name="language" options="-parameters" />
       <module name="rocket-MQ" options="-parameters" />
