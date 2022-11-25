@@ -2,7 +2,7 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/DataStruct/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/DeadClock/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Juc/DeadLock/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Juc/MyThread/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Juc/MyThreadPool/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Juc/src/main/java" charset="UTF-8" />
@@ -14,18 +14,20 @@
     <file url="file://$PROJECT_DIR$/LangBasic/language/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/LangBasic/spi/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/LangBasic/spi/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LangBasic/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LangBasic/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MyGateway/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MyNacos/serviceConsumer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MyNacos/serviceProvider/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MyNacos/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MyNacos/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RocketMQ/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringFoundation/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringFramework/SpringFoundation/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringFramework/SpringFoundation/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringFramework/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringFramework/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Test/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/rocket-MQ/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>

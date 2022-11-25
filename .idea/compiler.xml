@@ -8,7 +8,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Jvm" />
-        <module name="DeadClock" />
         <module name="MyThreadPool" />
         <module name="MyThread" />
         <module name="serviceConsumer" />
@@ -17,10 +16,11 @@
         <module name="SpringFoundation" />
         <module name="Date" />
         <module name="MyGateway" />
+        <module name="RocketMQ" />
         <module name="DataStruct" />
         <module name="Test" />
         <module name="serviceProvider" />
-        <module name="rocket-MQ" />
+        <module name="DeadLock" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -31,18 +31,18 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="DataStruct" options="-parameters" />
       <module name="Date" options="-parameters" />
-      <module name="DeadClock" options="-parameters" />
+      <module name="DeadLock" options="-parameters" />
       <module name="Juc" options="-parameters" />
       <module name="Jvm" options="-parameters" />
       <module name="LangBasic" options="-parameters" />
       <module name="MyGateway" options="-parameters" />
       <module name="MyThread" options="-parameters" />
       <module name="MyThreadPool" options="-parameters" />
+      <module name="RocketMQ" options="-parameters" />
       <module name="SpringFoundation" options="-parameters" />
       <module name="SpringFramework" options="-parameters" />
       <module name="Test" options="-parameters" />
       <module name="language" options="-parameters" />
-      <module name="rocket-MQ" options="-parameters" />
       <module name="serviceConsumer" options="-parameters" />
       <module name="serviceProvider" options="-parameters" />
       <module name="spi" options="-parameters" />
