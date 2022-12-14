@@ -1,6 +1,7 @@
-package com.lushixiang.testSpi;
+package com.spiachieve.spi;
 
-import com.lushixiang.testSpi.SearchFacade;
+
+import com.spi.commoninterface.spifacade.SearchFacade;
 
 public class DBSearch implements SearchFacade {
 

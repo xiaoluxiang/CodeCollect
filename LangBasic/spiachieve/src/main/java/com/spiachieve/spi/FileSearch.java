@@ -1,6 +1,8 @@
-package com.lushixiang.testSpi;
+package com.spiachieve.spi;
 
-public class FileSearch implements SearchFacade{
+import com.spi.commoninterface.spifacade.SearchFacade;
+
+public class FileSearch implements SearchFacade {
 
 
     @Override

@@ -8,44 +8,47 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Jvm" />
+        <module name="DeadClock" />
         <module name="MyThreadPool" />
+        <module name="rocketMQ" />
         <module name="MyThread" />
+        <module name="spiachieve" />
         <module name="serviceConsumer" />
         <module name="language" />
-        <module name="spi" />
         <module name="SpringFoundation" />
-        <module name="Date" />
+        <module name="spi" />
         <module name="MyGateway" />
-        <module name="RocketMQ" />
+        <module name="Date" />
         <module name="DataStruct" />
+        <module name="commoninterface" />
         <module name="Test" />
         <module name="serviceProvider" />
-        <module name="DeadLock" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="myNacos" target="13" />
+      <module name="DeadLock" target="13" />
+      <module name="MyNacos" target="13" />
+      <module name="root" target="13" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="DataStruct" options="-parameters" />
       <module name="Date" options="-parameters" />
-      <module name="DeadLock" options="-parameters" />
-      <module name="Juc" options="-parameters" />
+      <module name="DeadClock" options="-parameters" />
       <module name="Jvm" options="-parameters" />
-      <module name="LangBasic" options="-parameters" />
       <module name="MyGateway" options="-parameters" />
       <module name="MyThread" options="-parameters" />
       <module name="MyThreadPool" options="-parameters" />
-      <module name="RocketMQ" options="-parameters" />
       <module name="SpringFoundation" options="-parameters" />
-      <module name="SpringFramework" options="-parameters" />
       <module name="Test" options="-parameters" />
+      <module name="commoninterface" options="-parameters" />
       <module name="language" options="-parameters" />
+      <module name="rocketMQ" options="-parameters" />
       <module name="serviceConsumer" options="-parameters" />
       <module name="serviceProvider" options="-parameters" />
       <module name="spi" options="-parameters" />
+      <module name="spiachieve" options="-parameters" />
     </option>
   </component>
 </project>
