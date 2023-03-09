@@ -17,16 +17,16 @@
     <file url="file://$PROJECT_DIR$/LangBasic/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/LangBasic/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MyGateway/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/MyNacos/serviceConsumer/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/MyNacos/serviceProvider/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/MyNacos/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/MyNacos/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/RocketMQ/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringFoundation/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringFramework/SpringFoundation/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringFramework/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringFramework/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Test/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myNacos/serviceConsumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myNacos/serviceProvider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myNacos/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myNacos/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>
