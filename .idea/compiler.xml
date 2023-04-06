@@ -8,7 +8,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Jvm" />
-        <module name="DeadClock" />
         <module name="MyThreadPool" />
         <module name="rocketMQ" />
         <module name="MyThread" />
@@ -23,10 +22,10 @@
         <module name="commoninterface" />
         <module name="Test" />
         <module name="serviceProvider" />
+        <module name="DeadLock" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="DeadLock" target="13" />
       <module name="MyNacos" target="13" />
       <module name="root" target="13" />
     </bytecodeTargetLevel>
@@ -35,7 +34,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="DataStruct" options="-parameters" />
       <module name="Date" options="-parameters" />
-      <module name="DeadClock" options="-parameters" />
+      <module name="DeadLock" options="-parameters" />
       <module name="Jvm" options="-parameters" />
       <module name="MyGateway" options="-parameters" />
       <module name="MyThread" options="-parameters" />

@@ -1,11 +1,17 @@
 package org.mybatis.spring;
 
 import org.springframework.beans.factory.FactoryBean;
+import org.springframework.context.annotation.Configuration;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 
+/**
+ * FactoryBean是一个Spring的Bean，只不过这个Bean比较特殊
+ * 从SpringContext中获取该Bean时，获得的到的是该Bean中getObject方法的返回值。如果需要获取其本身需要增加&
+ * */
+@Configuration
 public class MyFactoryBean implements FactoryBean {
 
     private Class mapperClass;
