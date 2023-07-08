@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fe65e71-86bf-41a1-84f3-756bd0306dc4" name="Changes" comment="2022-12-14-调整项目格式">
-      <change afterPath="$PROJECT_DIR$/Test/src/main/java/com/lushixiang/TestSimple/InitSequenceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/src/main/java/com/lushixiang/TestSimple/Operator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/src/main/java/com/lushixiang/TestSimple/Temp_KeDa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Juc/DeadLock/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Juc/DeadLock/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/src/main/java/com/lushixiang/TestSimple/BitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/main/java/com/lushixiang/TestSimple/BitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9fe65e71-86bf-41a1-84f3-756bd0306dc4" name="Changes" comment="2023-07-08&amp;历史记录提交" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -220,7 +212,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670994251240</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="2023-07-08&amp;历史记录提交">
+      <created>1688817210953</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1688817210953</updated>
+    </task>
+    <task id="LOCAL-00006" summary="2023-07-08&amp;历史记录提交">
+      <created>1688817315786</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1688817315786</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -240,7 +246,8 @@
     <MESSAGE value="2022-11-25" />
     <MESSAGE value="2022-11-25-调整项目格式" />
     <MESSAGE value="2022-12-14-调整项目格式" />
-    <option name="LAST_COMMIT_MESSAGE" value="2022-12-14-调整项目格式" />
+    <MESSAGE value="2023-07-08&amp;历史记录提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="2023-07-08&amp;历史记录提交" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
