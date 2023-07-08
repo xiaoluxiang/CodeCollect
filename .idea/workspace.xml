@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9fe65e71-86bf-41a1-84f3-756bd0306dc4" name="Changes" comment="2022-12-14-调整项目格式">
+      <change afterPath="$PROJECT_DIR$/Test/src/main/java/com/lushixiang/TestSimple/InitSequenceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/src/main/java/com/lushixiang/TestSimple/Operator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/src/main/java/com/lushixiang/TestSimple/Temp_KeDa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Juc/DeadLock/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Juc/DeadLock/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/src/main/java/com/lushixiang/TestSimple/BitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/main/java/com/lushixiang/TestSimple/BitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="fcf635bb-db50-4fac-903a-65bf361bb24f" />
+        <option name="url" value="https://github.com/xiaoluxiang/CodeCollect.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="HierarchyBrowserManager">
+    <option name="SCOPE" value="All" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="2FKulMtaEk6CgVGQDohYgM4YaRb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ToolWindowBuild.ShowToolbar" value="false" />
+    <property name="ToolWindowPlantUML.ShowToolbar" value="false" />
+    <property name="ToolWindowPull Requests.ShowToolbar" value="false" />
+    <property name="ToolWindowStructure.ShowToolbar" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/SpringFramework" />
+      <recent name="$PROJECT_DIR$/MyGateway/src/main/resources" />
+      <recent name="$PROJECT_DIR$/MyNacos/serviceProvider/src/main/resources" />
+      <recent name="$PROJECT_DIR$/MyNacos" />
+      <recent name="$PROJECT_DIR$/MyNacos/src/main/java/com/lushixiang/serviceProvider" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/SpringFramework/SpringFoundation/src/main/java" />
+      <recent name="$PROJECT_DIR$/SpringFramework/SpringFoundation/src/main/java/com/lushixiang/annotationworkway" />
+      <recent name="$PROJECT_DIR$/SpringFramework/SpringFoundation" />
+      <recent name="$PROJECT_DIR$/LangBasic/spiachieve/src/main/resources/META-INF" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Temp_KeDa">
+    <configuration name="BitTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lushixiang.TestSimple.BitTest" />
+      <module name="Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lushixiang.TestSimple.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InitSequenceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lushixiang.TestSimple.InitSequenceTest" />
+      <module name="Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lushixiang.TestSimple.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyBeanProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lushixiang.bean.middle.MyBeanProcessor" />
+      <module name="SpringFoundation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lushixiang.bean.middle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lushixiang.testSpi.SpiApplication" />
+      <module name="spi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lushixiang.testSpi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Temp_KeDa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lushixiang.TestSimple.Temp_KeDa" />
+      <module name="Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lushixiang.TestSimple.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="spiachieve" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="spiachieve" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Temp_KeDa" />
+        <item itemvalue="Application.SpiApplication" />
+        <item itemvalue="Application.InitSequenceTest" />
+        <item itemvalue="Application.BitTest" />
+        <item itemvalue="Application.MyBeanProcessor" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9fe65e71-86bf-41a1-84f3-756bd0306dc4" name="Changes" comment="" />
+      <created>1664253251124</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1664253251124</updated>
+    </task>
+    <task id="LOCAL-00001" summary="2022-11-16">
+      <created>1668610538659</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668610538659</updated>
+    </task>
+    <task id="LOCAL-00002" summary="2022-11-25">
+      <created>1669370339762</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669370339762</updated>
+    </task>
+    <task id="LOCAL-00003" summary="2022-11-25-调整项目格式">
+      <created>1669371542846</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669371542847</updated>
+    </task>
+    <task id="LOCAL-00004" summary="2022-12-14-调整项目格式">
+      <created>1670994251239</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670994251240</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="2022-11-16" />
+    <MESSAGE value="2022-11-25" />
+    <MESSAGE value="2022-11-25-调整项目格式" />
+    <MESSAGE value="2022-12-14-调整项目格式" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022-12-14-调整项目格式" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
