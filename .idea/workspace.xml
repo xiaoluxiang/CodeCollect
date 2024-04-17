@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fe65e71-86bf-41a1-84f3-756bd0306dc4" name="Changes" comment="2023-07-08&amp;历史记录提交" />
+    <list default="true" id="9fe65e71-86bf-41a1-84f3-756bd0306dc4" name="Changes" comment="2023-07-08&amp;历史记录提交">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,13 +41,17 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="useMavenConfig" value="true" />
+        <option name="localRepository" value="E:\SoftWare\Maven\Support\repository" />
+        <option name="userSettingsFile" value="C:\Users\lushixiang\.m2\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2FKulMtaEk6CgVGQDohYgM4YaRb" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -54,22 +60,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="ToolWindowBuild.ShowToolbar" value="false" />
-    <property name="ToolWindowPlantUML.ShowToolbar" value="false" />
-    <property name="ToolWindowPull Requests.ShowToolbar" value="false" />
-    <property name="ToolWindowStructure.ShowToolbar" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.MsgPushConsumer.executor": "Run",
+    "Application.SpiApplication.executor": "Run",
+    "Application.TestThreadPool.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/CodingSpace/CodeCollect",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/SpringFramework" />
@@ -100,25 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InitSequenceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lushixiang.TestSimple.InitSequenceTest" />
-      <module name="Test" />
+    <configuration name="MsgPushConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lushixiang.rocketMQ.msgConsumer.MsgPushConsumer" />
+      <module name="rocketMQ" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lushixiang.TestSimple.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyBeanProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lushixiang.bean.middle.MyBeanProcessor" />
-      <module name="SpringFoundation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lushixiang.bean.middle.*" />
+          <option name="PATTERN" value="com.lushixiang.rocketMQ.msgConsumer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,6 +141,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestThreadPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lushixiang.use.TestThreadPool" />
+      <module name="MyThreadPool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lushixiang.use.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="spiachieve" />
       <method v="2">
@@ -168,10 +170,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Temp_KeDa" />
-        <item itemvalue="Application.SpiApplication" />
-        <item itemvalue="Application.InitSequenceTest" />
         <item itemvalue="Application.BitTest" />
-        <item itemvalue="Application.MyBeanProcessor" />
+        <item itemvalue="Application.TestThreadPool" />
+        <item itemvalue="Application.SpiApplication" />
+        <item itemvalue="Application.MsgPushConsumer" />
       </list>
     </recent_temporary>
   </component>

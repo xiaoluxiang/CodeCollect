@@ -14,7 +14,7 @@ public class Temp_KeDa {
         HashMap<Character, Boolean> checkMap = new HashMap<>();
         for(int i = 0; i<s1.length(); i++){
             checkMap.put(s1.charAt(i), Boolean.TRUE);
-            checkMap.put(s1.)
+//            checkMap.put(s1.)
         }
         StringBuilder finalString = new StringBuilder();
         for(int i = 0; i<s2.length(); i++){
