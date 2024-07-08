@@ -23,7 +23,8 @@
         <module>LangBasic</module>
         <module>DataStruct</module>
         <module>MyGateway</module>
-        <module>SpringFramework</module><!---->
+        <module>SpringFramework</module>
+        <module>SpringBoot</module>
     </modules>
 
     <properties>

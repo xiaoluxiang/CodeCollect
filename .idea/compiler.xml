@@ -14,6 +14,7 @@
         <module name="spiachieve" />
         <module name="serviceConsumer" />
         <module name="language" />
+        <module name="SpringBoot" />
         <module name="SpringFoundation" />
         <module name="spi" />
         <module name="MyGateway" />
@@ -39,6 +40,7 @@
       <module name="MyGateway" options="-parameters" />
       <module name="MyThread" options="-parameters" />
       <module name="MyThreadPool" options="-parameters" />
+      <module name="SpringBoot" options="-parameters" />
       <module name="SpringFoundation" options="-parameters" />
       <module name="Test" options="-parameters" />
       <module name="commoninterface" options="-parameters" />

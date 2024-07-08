@@ -4,8 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fe65e71-86bf-41a1-84f3-756bd0306dc4" name="Changes" comment="2023-07-08&amp;历史记录提交">
+    <list default="true" id="9fe65e71-86bf-41a1-84f3-756bd0306dc4" name="Changes" comment="24-04-17 test push">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sfaf.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/src/main/java/com/lushixiang/springboot/SpringbootApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/src/main/java/com/lushixiang/springboot/TestApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/src/test/java/com/lushixiang/springboot/SpringbootApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringFramework/SpringFramework.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,12 +76,20 @@
   "keyToString": {
     "Application.MsgPushConsumer.executor": "Run",
     "Application.SpiApplication.executor": "Run",
+    "Application.SpringbootApplication.executor": "Run",
     "Application.TestThreadPool.executor": "Run",
+    "Maven.SpringBoot [clean].executor": "Run",
+    "Maven.SpringBoot [install].executor": "Run",
+    "Maven.SpringBoot [verify].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "E:/CodingSpace/CodeCollect",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "MavenSettings"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -88,7 +108,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Temp_KeDa">
+  <component name="RunManager" selected="Application.SpringbootApplication">
     <configuration name="BitTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lushixiang.TestSimple.BitTest" />
       <module name="Test" />
@@ -102,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MsgPushConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lushixiang.rocketMQ.msgConsumer.MsgPushConsumer" />
-      <module name="rocketMQ" />
+    <configuration name="SpiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lushixiang.testSpi.SpiApplication" />
+      <module name="spi" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lushixiang.rocketMQ.msgConsumer.*" />
+          <option name="PATTERN" value="com.lushixiang.testSpi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lushixiang.testSpi.SpiApplication" />
-      <module name="spi" />
+    <configuration name="SpringbootApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lushixiang.springboot.SpringbootApplication" />
+      <module name="SpringBoot" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lushixiang.testSpi.*" />
+          <option name="PATTERN" value="com.lushixiang.springboot.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,11 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SpringbootApplication" />
         <item itemvalue="Application.Temp_KeDa" />
         <item itemvalue="Application.BitTest" />
         <item itemvalue="Application.TestThreadPool" />
         <item itemvalue="Application.SpiApplication" />
-        <item itemvalue="Application.MsgPushConsumer" />
       </list>
     </recent_temporary>
   </component>
