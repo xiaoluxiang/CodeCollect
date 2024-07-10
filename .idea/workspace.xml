@@ -4,20 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fe65e71-86bf-41a1-84f3-756bd0306dc4" name="Changes" comment="24-04-17 test push">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sfaf.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot/src/main/java/com/lushixiang/springboot/SpringbootApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot/src/main/java/com/lushixiang/springboot/TestApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot/src/test/java/com/lushixiang/springboot/SpringbootApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringFramework/SpringFramework.iml" afterDir="false" />
+    <list default="true" id="9fe65e71-86bf-41a1-84f3-756bd0306dc4" name="Changes" comment="24-07-08 testApollo">
+      <change afterPath="$PROJECT_DIR$/SpringBoot/CommonApi/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/CommonApi/src/main/java/com/lushixiang/ExchangeMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/Consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/Consumer/src/main/java/com/lushixiang/ConsumerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/Consumer/src/main/java/com/lushixiang/TestConsumerApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/Consumer/src/main/java/com/lushixiang/config/RestTemplateBeanConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/Consumer/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/Consumer/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/ServiceProviderDemo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/ServiceProviderDemo/src/main/java/com/lushixiang/springboot/TestProviderApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/ServiceProviderDemo/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/ServiceProviderDemo/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/ServiceProviderDemo/src/main/resources/static/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot/src/main/java/com/lushixiang/springboot/SpringbootApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot/ServiceProviderDemo/src/main/java/com/lushixiang/springboot/SpringbootApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot/src/main/java/com/lushixiang/springboot/TestApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot/ServiceProviderDemo/src/main/java/com/lushixiang/springboot/TestApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot/src/test/java/com/lushixiang/springboot/SpringbootApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot/ServiceProviderDemo/src/test/java/com/lushixiang/springboot/SpringbootApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,8 +84,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ConsumerApplication.executor": "Run",
     "Application.MsgPushConsumer.executor": "Run",
     "Application.SpiApplication.executor": "Run",
+    "Application.SpringbootApplication (1).executor": "Run",
     "Application.SpringbootApplication.executor": "Run",
     "Application.TestThreadPool.executor": "Run",
     "Maven.SpringBoot [clean].executor": "Run",
@@ -85,27 +97,27 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/CodingSpace/CodeCollect",
-    "project.structure.last.edited": "Project",
+    "last_opened_file_path": "D:/CodingSpace/CodeCollect/SpringBoot/Consumer/src/main/resources/static",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "MavenSettings"
+    "settings.editor.selected.configurable": "editor.preferences.tabs"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\CodingSpace\CodeCollect\SpringBoot\Consumer\src\main\resources\static" />
       <recent name="$PROJECT_DIR$/SpringFramework" />
       <recent name="$PROJECT_DIR$/MyGateway/src/main/resources" />
       <recent name="$PROJECT_DIR$/MyNacos/serviceProvider/src/main/resources" />
       <recent name="$PROJECT_DIR$/MyNacos" />
-      <recent name="$PROJECT_DIR$/MyNacos/src/main/java/com/lushixiang/serviceProvider" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CodingSpace\CodeCollect\SpringBoot\ServiceProviderDemo" />
+      <recent name="D:\CodingSpace\CodeCollect\SpringBoot" />
+      <recent name="D:\CodingSpace\CodeCollect\SpringBoot\Consumer" />
+      <recent name="D:\CodingSpace\CodeCollect\SpringBoot\ServiceProviderDemo\src" />
       <recent name="$PROJECT_DIR$/SpringFramework/SpringFoundation/src/main/java" />
-      <recent name="$PROJECT_DIR$/SpringFramework/SpringFoundation/src/main/java/com/lushixiang/annotationworkway" />
-      <recent name="$PROJECT_DIR$/SpringFramework/SpringFoundation" />
-      <recent name="$PROJECT_DIR$/LangBasic/spiachieve/src/main/resources/META-INF" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager" selected="Application.SpringbootApplication">
@@ -122,12 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lushixiang.testSpi.SpiApplication" />
-      <module name="spi" />
+    <configuration name="ConsumerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lushixiang.ConsumerApplication" />
+      <module name="Consumer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lushixiang.testSpi.*" />
+          <option name="PATTERN" value="com.lushixiang.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,6 +150,19 @@
     <configuration name="SpringbootApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lushixiang.springboot.SpringbootApplication" />
       <module name="SpringBoot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lushixiang.springboot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootApplication" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lushixiang.springboot.SpringbootApplication" />
+      <module name="ServiceProviderDemo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.lushixiang.springboot.*" />
@@ -161,19 +186,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestThreadPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lushixiang.use.TestThreadPool" />
-      <module name="MyThreadPool" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lushixiang.use.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="spiachieve" />
       <method v="2">
@@ -190,10 +202,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.SpringbootApplication" />
+        <item itemvalue="Application.ConsumerApplication" />
+        <item itemvalue="Application.SpringbootApplication" />
         <item itemvalue="Application.Temp_KeDa" />
         <item itemvalue="Application.BitTest" />
-        <item itemvalue="Application.TestThreadPool" />
-        <item itemvalue="Application.SpiApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -248,7 +260,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688817315786</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="24-07-08 testApollo">
+      <option name="closed" value="true" />
+      <created>1720441899184</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1720441899184</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -269,10 +289,16 @@
     <MESSAGE value="2022-11-25-调整项目格式" />
     <MESSAGE value="2022-12-14-调整项目格式" />
     <MESSAGE value="2023-07-08&amp;历史记录提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="2023-07-08&amp;历史记录提交" />
+    <MESSAGE value="24-07-08 testApollo" />
+    <option name="LAST_COMMIT_MESSAGE" value="24-07-08 testApollo" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/CodeCollect$SpringbootApplication__1_.ic" NAME="SpringbootApplication (1) Coverage Results" MODIFIED="1720618035220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.lushixiang.springboot.*</FILTER>
+    </SUITE>
   </component>
 </project>

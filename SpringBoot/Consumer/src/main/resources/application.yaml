@@ -1,0 +1,20 @@
+debug: true
+spring:
+  application:
+    name: consumer-01
+  cloud:
+    consul:
+      config:
+        data-key: data
+        prefix: config
+        format: yaml
+      host: localhost
+      port: 8500
+      discovery:
+        service-name: consumer-01
+        heartbeat:
+          enable: true
+
+        prefer-ip-address: true
+server:
+  port: 7777

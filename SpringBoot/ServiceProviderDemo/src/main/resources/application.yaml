@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: lsx-yaml
+  cloud:
+    consul:
+      config:
+        data-key: data
+        prefix: config
+        format: yaml
+      host: localhost
+      port: 8500
+      discovery:
+        prefer-ip-address: true
+server:
+  port: 8080

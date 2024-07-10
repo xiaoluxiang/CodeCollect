@@ -8,19 +8,21 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Jvm" />
+        <module name="ServiceProviderDemo" />
         <module name="MyThreadPool" />
         <module name="rocketMQ" />
         <module name="MyThread" />
         <module name="spiachieve" />
         <module name="serviceConsumer" />
         <module name="language" />
-        <module name="SpringBoot" />
         <module name="SpringFoundation" />
         <module name="spi" />
+        <module name="CommonApi" />
         <module name="MyGateway" />
         <module name="Date" />
         <module name="DataStruct" />
         <module name="commoninterface" />
+        <module name="Consumer" />
         <module name="Test" />
         <module name="serviceProvider" />
         <module name="DeadLock" />
@@ -29,10 +31,13 @@
     <bytecodeTargetLevel>
       <module name="MyNacos" target="13" />
       <module name="root" target="13" />
+      <module name="untitled" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="CommonApi" options="-parameters" />
+      <module name="Consumer" options="-parameters" />
       <module name="DataStruct" options="-parameters" />
       <module name="Date" options="-parameters" />
       <module name="DeadLock" options="-parameters" />
@@ -40,7 +45,8 @@
       <module name="MyGateway" options="-parameters" />
       <module name="MyThread" options="-parameters" />
       <module name="MyThreadPool" options="-parameters" />
-      <module name="SpringBoot" options="-parameters" />
+      <module name="ServiceProviderDemo" options="-parameters" />
+      <module name="SpringBoot" options="" />
       <module name="SpringFoundation" options="-parameters" />
       <module name="Test" options="-parameters" />
       <module name="commoninterface" options="-parameters" />
@@ -50,6 +56,7 @@
       <module name="serviceProvider" options="-parameters" />
       <module name="spi" options="-parameters" />
       <module name="spiachieve" options="-parameters" />
+      <module name="untitled" options="-parameters" />
     </option>
   </component>
 </project>
